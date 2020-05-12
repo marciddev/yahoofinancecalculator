@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "pichBDIy81XpuiOBRv2e6USAmhrp7nubC6r2z6DLNwfk9QahvLYjiTDyoTa92mIOjFJp2eAZg/etWxEdRrQjHA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\kevin\\source\\repos\\stock calculator\\stock calculator\\stock calculator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kevin\\.nuget\\packages\\dotnetprojects.extended.wpf.toolkit\\4.6.82\\dotnetprojects.extended.wpf.toolkit.4.6.82.nupkg.sha512",
+    "C:\\Users\\kevin\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

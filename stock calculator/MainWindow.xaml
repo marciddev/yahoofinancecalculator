@@ -1,0 +1,42 @@
+﻿<Window x:Class="stock_calculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:stock_calculator"
+        xmlns:tk="http://schemas.xceed.com/wpf/xaml/toolkit"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Border Padding="10">
+        <StackPanel>
+                <TextBlock x:Name="Title" TextAlignment="Center" FontWeight="Bold" FontSize="20">Select the range you would like to compare(days).</TextBlock>
+            <StackPanel Orientation="Horizontal" Height="50">
+                <TextBlock x:Name="lowerValueText" Width="50" Height="50" Text="{Binding LowerValue}" Margin="250 0 0 0"/>
+                <TextBlock x:Name="higherValueText" Width="50" Height="50" Margin="125 0 0 0" Text="{Binding HigherValue}"/>
+            </StackPanel>
+            <tk:RangeSlider x:Name="mainSlider" HigherValueChanged="mainSlider_HigherValueChanged" HigherValue="{Binding HigherValue}" LowerValue="{Binding LowerValue}" Maximum="365" Minimum="0" Margin="0 25 0 0"/>
+            <StackPanel Orientation="Horizontal">
+                <Button x:Name="compareValues" Click="compareValues_Click" Content="Compare" Width="50" Height="50" Margin="280 15 0 0" FontSize="10"/>
+                <Button x:Name="lockValues" Click="lockValues_Click" Content="Lock-In" Width="50" Height="50" Margin="70 15 0 0" FontSize="10"></Button>
+                <Button x:Name="moveSlider" Click="moveSlider_Click" Visibility="Hidden" Width="50" Height="50" Margin="50 15 0 0">>>>></Button>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Label BorderBrush="Black" BorderThickness="1" x:Name="IVE" Margin="200 10 0 0" Width="100" Height="50"/>
+                <Label BorderBrush="Black" BorderThickness="1" x:Name="IVV" Margin="15 10 0 0" Width="100" Height="50"/>
+                <Label BorderBrush="Black" BorderThickness="1" x:Name="IVW" Margin="15 10 0 0" Width="100" Height="50"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Label BorderBrush="Black" BorderThickness="1" x:Name="IJJ" Margin="200 10 0 0" Width="100" Height="50"/>
+                <Label BorderBrush="Black" BorderThickness="1" x:Name="IJH" Margin="15 10 0 0" Width="100" Height="50"/>
+                <Label BorderBrush="Black" BorderThickness="1" x:Name="IJK" Margin="15 10 0 0" Width="100" Height="50"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Label BorderBrush="Black" BorderThickness="1" x:Name="IWN" Margin="200 10 0 0" Width="100" Height="50"/>
+                <Label BorderBrush="Black" BorderThickness="1" x:Name="IWM" Margin="15 10 0 0" Width="100" Height="50"/>
+                <Label BorderBrush="Black" BorderThickness="1" x:Name="IWO" Margin="15 10 0 0" Width="100" Height="50"/>
+            </StackPanel>
+        </StackPanel>
+
+    </Border>
+
+</Window>

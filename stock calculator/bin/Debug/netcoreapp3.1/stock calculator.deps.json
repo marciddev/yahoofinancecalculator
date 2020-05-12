@@ -1,0 +1,57 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "stock calculator/1.0.0": {
+        "dependencies": {
+          "DotNetProjects.Extended.Wpf.Toolkit": "4.6.82",
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "runtime": {
+          "stock calculator.dll": {}
+        }
+      },
+      "DotNetProjects.Extended.Wpf.Toolkit/4.6.82": {
+        "runtime": {
+          "lib/netcoreapp3.0/DotNetProjects.Wpf.Extended.Toolkit.dll": {
+            "assemblyVersion": "4.6.82.0",
+            "fileVersion": "4.6.82.0"
+          }
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.3.23909"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "stock calculator/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DotNetProjects.Extended.Wpf.Toolkit/4.6.82": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-y4UXWROUd9UPVcd8EsGjabHncDN0UBPOWYi3kprKyc1nIejj1dBuN6zN8G0bLDPbF1fCtnz3NrmzMG5RGIR6AQ==",
+      "path": "dotnetprojects.extended.wpf.toolkit/4.6.82",
+      "hashPath": "dotnetprojects.extended.wpf.toolkit.4.6.82.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "path": "newtonsoft.json/12.0.3",
+      "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
+    }
+  }
+}
